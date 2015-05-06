@@ -1,0 +1,65 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  background: #000;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 300;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.slice.labour {
+  fill: #CC190B;
+}
+.slice.conservative {
+  fill: #0160A8;
+}
+.slice.liberaldemocrat {
+  fill: #DE7403;
+}
+.slice.ukip {
+  fill: #602674;
+}
+.slice.green {
+  fill: #5F9E14;
+}
+.slice.anarchy {
+  fill: #350502;
+}
+.btn, .btn:visited {
+  float: left;
+  width: 48%;
+  display: block;
+  border-radius: 3px;
+  margin: 3px 1%;
+  padding: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  background-color: #666;
+}
+.btn.labour:hover {
+  background-color: #CC190B;
+}
+.btn.conservative:hover {
+  background-color: #0160A8;
+}
+.btn.liberaldemocrat:hover {
+  background-color: #DE7403;
+}
+.btn.ukip:hover {
+  background-color: #602674;
+}
+.btn.green:hover {
+  background-color: #5F9E14;
+}
+.btn.anarchy:hover {
+  background-color: #350502;
+}

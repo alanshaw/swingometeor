@@ -1,0 +1,26 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swingometeor</title>
+</head>
+
+<body>
+  <h1>Swing-o-meteor!</h1>
+  {{> pie}}
+  {{> buttons}}
+</body>
+
+<template name="pie">
+  <div id="pie"></div>
+</template>
+
+<template name="buttons">
+  <ul>
+    {{#each parties}}
+      <li>{{> button}}</li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="button">
+  <a href="#" class="{{getButtonClass this}}">{{this}}</a>
+</template>
